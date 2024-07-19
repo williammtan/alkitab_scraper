@@ -3,7 +3,7 @@ from scrapy.selector import Selector
 
 
 class ParallelSpider(scrapy.Spider):
-    name = "parralel"
+    name = "parallel"
 
     start_urls = [
         "https://alkitab.mobi/bali/Kej/1/1/"
