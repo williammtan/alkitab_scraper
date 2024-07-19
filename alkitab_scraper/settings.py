@@ -12,6 +12,9 @@ BOT_NAME = "alkitab_scraper"
 SPIDER_MODULES = ["alkitab_scraper.spiders"]
 NEWSPIDER_MODULE = "alkitab_scraper.spiders"
 
+LOG_LEVEL = "INFO"
+CONCURRENT_REQUESTS = 400
+REACTOR_THREADPOOL_MAXSIZE = 20
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "alkitab_scraper (+http://www.yourdomain.com)"
